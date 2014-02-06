@@ -35,6 +35,8 @@ gem 'devise'
 gem 'socialization'
 gem "dynarex-blog", "~> 0.7.5"
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
