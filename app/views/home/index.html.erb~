@@ -11,23 +11,23 @@
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li><a href="#"data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
-                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="I do write">Blog</a></li>
+                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
               </ul>
             </div>
           </div>
 
           <div class="inner cover">
             <h1 class="cover-heading">Some lines About me.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead">More lines yet to write and think.</p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+              <a href="#" class="btn btn-lg btn-default">Think button</a>
             </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
               <p>Copyright &copy; <%=Time.now.year=%></p>
-		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%> or <%=link_to "Gmail", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%></p>
+		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Google plus", "http://www.plus.google.com", :confirm =>"You are now getting real" %></p>
             </div>
           </div>
 
