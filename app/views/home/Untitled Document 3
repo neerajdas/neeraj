@@ -1,0 +1,59 @@
+<% @title="Profile" %>   
+<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h2 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti">Neeraj Das</h2>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
+                <li><a href="#"data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
+                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Some lines About me.</h1>
+            <p class="lead">More lines yet to write and think.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Think button</a>
+            </p>
+          </div>
+<div class="">
+            <h1 class="cover-heading">Some lines About me.</h1>
+           <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Copyright &copy; <%=Time.now.year=%></p>
+		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Github", "http://github.com/inkgab", :confirm =>"You are now getting real" %></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header"style="background-color:#3D3D3D;">
+        <h4 class="modal-title lead" id="myModalLabel">Works</h4>
+      </div>
+      <div class="modal-body" style="background-color:#3D3D3D;">
+        <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
+      </div>
+      <button type="button" class="close" data-dismiss="modal" style="background-color:#ffffff;" aria-hidden="true"> <span style="background-color:#ffffff;">&times;</span></button>
+    </div>
+  </div>
+</div>
+<!--end modal-->
+

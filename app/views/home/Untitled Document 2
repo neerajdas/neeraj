@@ -1,0 +1,55 @@
+		<!--
+		===================================
+		:: CONTENT
+		===================================
+		-->
+		    
+    <!-- INTRO -->
+    	<div id="intro" class="row-fluid slide-title slide-intro ">
+    	<div class="container">
+	    	<div class="span12">
+		    	<h1>I'm a UI/UX Designer & Creative Director living in San Francisco, California.</h1>
+	    	</div>
+	    	</div>
+    	</div>
+
+    <!-- MAP -->
+    	<div id="map" class="row-fluid slide-map">
+    	<div class="container">
+	    	<div class="span12">
+		    	<h2>I come from a land far, far away.</h2>
+	    	</div>
+	    	</div>
+    	</div>
+
+    <!-- WORKSPACE -->
+    	<div class="row-fluid slide-workspace">
+    	<div class="container">
+	    	<div class="span12">
+		    	<h2>I am passionate about great product design, branding, & typography.</h2>
+		    	<p>Currently helping make the world more open <br/>& connected at Facebook.</span></p>
+	    	</div>
+	    	</div>
+    	</div>
+    	
+   <!-- BRANDS -->
+    	<div class="row-fluid slide-brands">
+    	<div class="container">
+	    	<div class="span12">
+		    	<h2>I've had the pleasure of working with these amazing brands.</h2>
+	    	</div>
+	    	<div class="row row-brands">
+	    	<div class="span12 brands"><img src="img/brands.png"></div>
+	    	</div>
+
+	    	</div>
+    	</div>
+    	
+    <!-- CONTACT -->
+    	<div class="row-fluid slide-contact">
+    	<div class="container">
+	    	<div class="span12">
+		    	<h3>Sometimes, I like to play ball on <a target="_blank" href="http://www.dribbble.com/gabrielvaldivia" class="icon-dribbble"></a> and exercise brevity on <a target="_blank" href="http://www.twitter.com/gabrielvaldivia" class="icon-twitter-3"></a>. You can contact me through <a href="mailto:hello@gabrielvaldivia.com" class="icon-gmail"></a>, or connect with me on <a target="_blank" href="http://www.linkedin.com/in/gabrielvaldivia/" class="icon-linkedin"></a>.</h3>
+	    	</div>
+	    	</div>
+    	</div>
