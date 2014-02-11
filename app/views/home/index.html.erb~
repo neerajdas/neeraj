@@ -7,7 +7,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h2 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti">Neeraj Das</h2>
+              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong>Neeraj Das</strong></h1></div>
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li><a href="#"data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
@@ -23,7 +23,7 @@
               <a href="#" class="btn btn-lg btn-default">Think button</a>
             </p>
           </div>
-<div class="inner cover">
+<div class="">
             <h1 class="cover-heading">Some lines About me.</h1>
            <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
           </div>
