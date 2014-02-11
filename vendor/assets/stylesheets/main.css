@@ -17,7 +17,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 
@@ -27,9 +27,13 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  /*background-color: #333;*/
-background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') repeat center center;
+ height: 100%;
+  background-color: #333;
+/*background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') no-repeat;
+background-size:auto 900px;
+/*background:url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center no-repeat;
+    background-size:300px 600px;*/
+
 }
 body {
   color: #fff;
@@ -118,6 +122,7 @@ body {
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+  
 }
 
 
@@ -127,7 +132,7 @@ body {
 
 .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.6);
 }
 
 
@@ -165,7 +170,19 @@ body {
   }
 }
 #embossed h1 {
-	text-shadow: 2px 2px 2px #fff, -2px -2px 2px #000;
+	text-shadow: 1px 1px 1px #fff, -1px -1px 1px #000;
 	color: black;
 	opacity: 0.6;
 }
+ .pichone{
+background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') no-repeat;
+background-size:auto 200px;
+
+}
+.pichone2{
+background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') no-repeat;
+background-size:cover;
+
+}
+
+

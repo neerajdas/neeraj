@@ -1,13 +1,18 @@
 <% @title="Profile" %>   
 <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
+      <div class="pichone2 site-wrapper-inner">
 
         <div class="cover-container">
 
           <div class="masthead clearfix">
-            <div class="inner">
-              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong>Neeraj Das</strong></h1></div>
+
+            
+
+<div data-spy="affix" data-offset-top="30" data-offset-bottom="30">
+              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1></div>
+</div>
+<div class="inner">
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li><a href="#"data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
@@ -16,17 +21,23 @@
             </div>
           </div>
 
+
           <div class="inner cover">
+            <h1 class="cover-heading">Some lines About me.</h1>
+            <p class="lead">More lines yet to write and think.</p>
+            <p class="lead">
+              <a href="#next" class="btn btn-sm btn-default">Next>></a>
+            </p>
+          </div>
+<div id="next">
+<div class="inner cover">
             <h1 class="cover-heading">Some lines About me.</h1>
             <p class="lead">More lines yet to write and think.</p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Think button</a>
             </p>
           </div>
-<div class="">
-            <h1 class="cover-heading">Some lines About me.</h1>
-           <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
-          </div>
+</div>
 
           <div class="mastfoot">
             <div class="inner">
@@ -56,4 +67,5 @@
   </div>
 </div>
 <!--end modal-->
+
 
