@@ -23,11 +23,15 @@
               <a href="#" class="btn btn-lg btn-default">Think button</a>
             </p>
           </div>
+<div class="inner cover">
+            <h1 class="cover-heading">Some lines About me.</h1>
+           <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
+          </div>
 
           <div class="mastfoot">
             <div class="inner">
               <p>Copyright &copy; <%=Time.now.year=%></p>
-		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Google plus", "http://www.plus.google.com", :confirm =>"You are now getting real" %></p>
+		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Github", "http://github.com/inkgab", :confirm =>"You are now getting real" %></p>
             </div>
           </div>
 
