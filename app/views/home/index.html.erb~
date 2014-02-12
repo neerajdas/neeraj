@@ -16,7 +16,7 @@
 
 <div class="inner">
               <ul class="nav masthead-nav">
-                <li class="active"><a href="http://0.0.0:3000" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
+                <li class="active"><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
               </ul>
@@ -67,10 +67,13 @@
 </div>
 <!--/slider-->
 <!--ends content here--->
+</div>
+</div>
           <div class="mastfoot">
             <div class="inner">
-              <p>Copyright &copy; <%=Time.now.year=%></p>
+              
 		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Github", "http://github.com/inkgab", :confirm =>"You are now getting real" %></p>
+            <p>Copyright &copy; <%=Time.now.year=%></p>
             </div>
           </div>
 
