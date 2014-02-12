@@ -34,8 +34,36 @@ a:hover {
 html,
 body {
  height: 100%;
-  background-color: #333;
-background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center repeat;
+/*
+background: #1e5799; 
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 41%, #2989d8 50%, #7db9e8 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(41%,#2989d8), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); 
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 41%,#2989d8 50%,#7db9e8 100%); 
+background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 41%,#2989d8 50%,#7db9e8 100%); 
+background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 41%,#2989d8 50%,#7db9e8 100%); 
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 41%,#2989d8 50%,#7db9e8 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); */
+
+
+
+
+
+
+
+background: #7862c9; /* Old browsers */
+background: -moz-linear-gradient(top,  #7862c9 0%, #7db9e8 66%, #81c9ef 73%, #2989d8 100%, #7db9e8 100%, #2989d8 100%, #7db9e8 100%, #aaa0ff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7862c9), color-stop(66%,#7db9e8), color-stop(73%,#81c9ef), color-stop(100%,#2989d8), color-stop(100%,#7db9e8), color-stop(100%,#2989d8), color-stop(100%,#7db9e8), color-stop(100%,#aaa0ff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7862c9 0%,#7db9e8 66%,#81c9ef 73%,#2989d8 100%,#7db9e8 100%,#2989d8 100%,#7db9e8 100%,#aaa0ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7862c9 0%,#7db9e8 66%,#81c9ef 73%,#2989d8 100%,#7db9e8 100%,#2989d8 100%,#7db9e8 100%,#aaa0ff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7862c9 0%,#7db9e8 66%,#81c9ef 73%,#2989d8 100%,#7db9e8 100%,#2989d8 100%,#7db9e8 100%,#aaa0ff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7862c9 0%,#7db9e8 66%,#81c9ef 73%,#2989d8 100%,#7db9e8 100%,#2989d8 100%,#7db9e8 100%,#aaa0ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7862c9', endColorstr='#aaa0ff',GradientType=0 ); /* IE6-9 */
+
+
+
+
+  /*background-color: #333;
+/*background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center repeat;
 background-size:auto 900px;
 /*background:url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center no-repeat;
     background-size:300px 600px;*/

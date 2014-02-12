@@ -16,7 +16,7 @@
 
 <div class="inner">
               <ul class="nav masthead-nav">
-                 <li class=""><a href="http://0.0.0:3000" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
+                 <li class=""><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li class="active"><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
               </ul>
@@ -52,7 +52,7 @@
 <div class="panel panel-default">
 
 <div class="panel-body">
-Projects I was part of
+<p class="text-left">Projects I was part of</p>
     <ul class="list-group text-left">
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| IGML</li>
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| ZYNDA</li>
