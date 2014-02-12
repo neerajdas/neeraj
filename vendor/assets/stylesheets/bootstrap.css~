@@ -5523,7 +5523,8 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
   border: 1px solid #dddddd;
 }
 
@@ -5592,12 +5593,13 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel {
+  margin-top:20px;
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .panel-body {
@@ -5720,6 +5722,7 @@ a.list-group-item.active:focus .list-group-item-text {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
+  color:transparent;
 }
 
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6338,7 +6341,7 @@ button.close {
 
 .carousel-inner > .item {
   position: relative;
-  display: block;
+  display: none;
   -webkit-transition: 0.6s ease-in-out left;
           transition: 0.6s ease-in-out left;
 }

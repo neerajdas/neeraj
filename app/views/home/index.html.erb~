@@ -16,8 +16,8 @@
 
 <div class="inner">
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
-                <li><a href="#"data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
+                <li class="active"><a href="http://0.0.0:3000" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
+                <li><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
               </ul>
             </div>
@@ -56,7 +56,8 @@
             <h1 class="cover-heading">Some lines about what i do.</h1>
             <p class="lead">More lines yet to write and think.</p>
             <p class="lead">
-              <a href="#myCarousel" data-slide="prev" class="btn btn-sm btn-default"><strong>Wherelse I have been to!</strong></a>
+	      <a href="#myCarousel" data-slide="prev" class="btn btn-sm btn-default"><strong>Wherelse I have been to!</strong></a>
+              <a href="#myCarousel" data-slide="next" class="btn btn-sm btn-default"><strong>About Me!</strong></a>
             </p>
           </div>
 </div>

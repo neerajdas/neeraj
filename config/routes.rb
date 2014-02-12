@@ -1,4 +1,6 @@
 Neeraj::Application.routes.draw do
+  get "pages/work"
+  get "pages/discus"
   resources :posts
 
   get "users/index"
