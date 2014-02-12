@@ -237,5 +237,10 @@ border:none 20px #000000;
 
 
 }
+
+.imgpad{
+ padding-right:200px;
+
+}
  
 
