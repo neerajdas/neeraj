@@ -1985,31 +1985,6 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     return this
   }
 
-//previousnext
-//===========
-$(document).ready(function() {
-    $(".button-back").click(function() {
-        MenuNavigationClick(-1);
-    });
-    $(".button-next").click(function() {
-        MenuNavigationClick(1);
-    });
-
-    function MenuNavigationClick(direction) {
-        // Get current element index and toggle
-        var current = $("#tab-content-holder .show");
-        var index = current.index();
-        current.toggleClass("show");
-
-        // Move to next element and check for overflow
-        index += 1 * direction;
-        index %= $("#tab-content-holder div").length;
-
-        // Toggle next element
-        $("#tab-content-holder div:eq("+index+")").toggleClass("show");
-    }
-});
-
 
   // AFFIX DATA-API
   // ==============

@@ -1,7 +1,7 @@
 <% @title="Profile" %>   
 <div class="site-wrapper">
 
-      <div class="pichone2 site-wrapper-inner">
+      <div class="site-wrapper-inner">
 
         <div class="cover-container">
 
@@ -9,9 +9,11 @@
 
             
 
-<div data-spy="affix" data-offset-top="30" data-offset-bottom="30">
-              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1></div>
+
+              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1>
+
 </div>
+
 <div class="inner">
               <ul class="nav masthead-nav">
                 <li class="active"><a href="#" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
@@ -21,24 +23,49 @@
             </div>
           </div>
 
-
-          <div class="inner cover">
+<!--starts content here--->
+<!--slider-->
+<div class="inset cover-container">
+<div id="myCarousel" class="carousel" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+ <div class="inner cover">
             <h1 class="cover-heading">Some lines About me.</h1>
             <p class="lead">More lines yet to write and think.</p>
             <p class="lead">
-              <a href="#next" class="btn btn-sm btn-default">Next>></a>
-            </p>
-          </div>
-<div id="next">
-<div class="inner cover">
-            <h1 class="cover-heading">Some lines About me.</h1>
-            <p class="lead">More lines yet to write and think.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Think button</a>
+              <a href="#myCarousel" data-slide="next" class="btn btn-sm btn-default"><strong>Wherelse I have been to!</strong></a>
             </p>
           </div>
 </div>
+<div class="item">
+<div class="travel">
+<div class="inner cover">
+            <h1 class="cover-heading">Some lines Where I have been to.</h1>
+            <p class="lead">Image of an interactive map with markers.</p>
+            <p class="lead">
+              <a href="#myCarousel" data-slide="prev" class="btn btn-sm btn-default"><strong>About Me!</strong></a>
+              <a href="#myCarousel" data-slide="next" class="btn btn-sm btn-default"><strong>What else I do!</strong></a>
+            </p>
+          </div>
+</div>
+</div>
+<div class="item">
+<div class="ido">
+<div class="inner cover">
+            <h1 class="cover-heading">Some lines about what i do.</h1>
+            <p class="lead">More lines yet to write and think.</p>
+            <p class="lead">
+              <a href="#myCarousel" data-slide="prev" class="btn btn-sm btn-default"><strong>Wherelse I have been to!</strong></a>
+            </p>
+          </div>
+</div>
+</div>
 
+</div>
+</div>
+<!--/slider-->
+<!--ends content here--->
           <div class="mastfoot">
             <div class="inner">
               <p>Copyright &copy; <%=Time.now.year=%></p>
@@ -52,20 +79,5 @@
 
     </div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-     <div class="modal-header"style="background-color:#3D3D3D;">
-        <h4 class="modal-title lead" id="myModalLabel">Works</h4>
-      </div>
-      <div class="modal-body" style="background-color:#3D3D3D;">
-        <p>Lorem ipsum dolor sit amet, ne graeci meliore pericula vel, cu duo expetendis adipiscing reprehendunt. Ei eam solum tation, vocent dissentias persequeris ex vim. Delenit officiis cu sea. Sea malorum meliore invenire an, constituto reformidans eam ei, voluptua hendrerit vituperata id pri. Ad cum erat etiam. Mei detraxit argumentum appellantur ea, eum ut insolens hendrerit.</p>
-      </div>
-      <button type="button" class="close" data-dismiss="modal" style="background-color:#ffffff;" aria-hidden="true"> <span style="background-color:#ffffff;">&times;</span></button>
-    </div>
-  </div>
-</div>
-<!--end modal-->
 
 

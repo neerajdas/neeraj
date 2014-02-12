@@ -14,9 +14,15 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
+  
+
+    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+
+
   border: 2px solid #fff;
 }
 
@@ -29,7 +35,7 @@ html,
 body {
  height: 100%;
   background-color: #333;
-/*background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') no-repeat;
+background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center repeat;
 background-size:auto 900px;
 /*background:url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center no-repeat;
     background-size:300px 600px;*/
@@ -170,23 +176,38 @@ body {
   }
 }
 #embossed h1 {
-	text-shadow: 1px 1px 1px #fff, -1px -1px 1px #000;
+	text-shadow: 1px 2px 2px #fff, -1px -1px 1px #000;
 	color: black;
 	opacity: 0.6;
 }
- .pichone{
-background-image: linear-gradient(top, rgb(0,0,0) 0%, rgb(255,255,
-    255) 100%);
-background-image: -moz-linear-gradient(center top, rgb(0,0,0) 0%,rgb(255,255,
-    255) 100%);
-background-image: -webkit-gradient(linear, left top, left bottom,
-     color-stop(0.000, rgb(0,0,0)),color-stop(1.000, rgb(255,255,255)));
+
+.travel {
+       background-color: #333;
+       background:url('') center center no-repeat;
+    background-size:cover;
+}
+.inset{
+
+
+    -moz-box-shadow:inset 2px 0px 9px #000000;
+    -webkit-box-shadow:inset 1px 0px 9px #000000;
+    box-shadow:inset 1px 0px 9px #000000;
+/*inset border*/
+border:none 20px #000000;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright:19px;
+    -moz-border-radius-bottomleft:19px;
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-top-left-radius:0px;
+    -webkit-border-top-right-radius:19px;
+    -webkit-border-bottom-left-radius:19px;
+    -webkit-border-bottom-right-radius:0px;
+    border-top-left-radius:0px;
+    border-top-right-radius:19px;
+    border-bottom-left-radius:19px;
+    border-bottom-right-radius:0px;
+
 
 }
-.pichone2{
-background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') no-repeat;
-background-size:cover;
-
-}
-
+ 
 
