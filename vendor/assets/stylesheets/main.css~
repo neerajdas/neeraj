@@ -61,9 +61,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7862c9', end
 
 
 
-
-  /*background-color: #333;
-/*background: url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center repeat;
+background:url('http://www.dzineblog360.com/wp-content/uploads/2011/01/Funky-Frisky-Grafitti-Wallpapers-54.jpg');
+background-size:cover;
+/*background-color: #333;
+background: url('http://4.bp.blogspot.com/-0BjFu9ZZyXI/UQflOo4QoFI/AAAAAAAAR4Y/LkMYAidELsg/s1600/Abstract+Paintings+Wallpapers+07.jpg') center center repeat;
 background-size:auto 900px;
 /*background:url('https://raw.github.com/inkgab/neeraj/master/vendor/assets/1.jpg') center center no-repeat;
     background-size:300px 600px;*/
@@ -239,7 +240,7 @@ border:none 20px #000000;
 }
 
 .imgpad{
- padding-right:200px;
+ padding-right:5px;
 
 }
  
