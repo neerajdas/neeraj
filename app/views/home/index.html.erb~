@@ -1,7 +1,7 @@
 <% @title="Profile" %>   
 <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
+      <div class="site-wrapper-inner ">
 
         <div class="cover-container">
 
@@ -10,12 +10,12 @@
             
 
 
-              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1>
+              <div id="embossed"><h1 class="masthead-brand rdopad" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1>
 
 </div>
 
 <div class="inner">
-              <ul class="nav masthead-nav">
+              <ul class="nav masthead-nav imgpad">
                 <li class="active"><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
@@ -25,7 +25,7 @@
 
 <!--starts content here--->
 <!--slider-->
-<div class="inset cover-container">
+<div class="inset cover-container imgpad">
 <div id="myCarousel" class="carousel" data-ride="carousel">
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
@@ -34,8 +34,8 @@
  <div  class="inner cover">
 <div class="row">
 
-            
-<%= image_tag("me3.png",:class=>"pull-left imgpad inset") %>
+ <p class="pull-left">           
+<%= image_tag("IMG_10776926250290.jpeg",:class=>"pull-left imgpad inset") %></p>
             <h1 class="cover-heading ">Some lines About me.</h1>
             <p class="lead ">More lines yet to write and think.</p>
             <p class="lead ">
@@ -78,7 +78,7 @@
           <div class="mastfoot">
             <div class="inner">
               
-		<p>Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Github", "http://github.com/inkgab", :confirm =>"You are now getting real" %></p>
+		<p style="color:#fff;" class="footpad">Find me @ <%=link_to "Facebook", "http://www.facebook.com/dn33r", :confirm => "I knew you are a facebook addict !"%>,<%=link_to "Twitter", "http://www.twitter.com/neeraj_das", :confirm => "I knew you are a twitttter!"%> or <%=link_to "Github", "http://github.com/inkgab", :confirm =>"You are now getting real" %></p>
             <p>Copyright &copy; <%=Time.now.year=%></p>
             </div>
           </div>

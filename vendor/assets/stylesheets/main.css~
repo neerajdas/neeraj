@@ -61,8 +61,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7862c9', end
 
 
 
-background:url('http://www.dzineblog360.com/wp-content/uploads/2011/01/Funky-Frisky-Grafitti-Wallpapers-54.jpg');
-background-size:cover;
+background:url('https://raw.github.com/inkgab/neeraj/master/app/assets/images/2013_10_Graffiti-Full-Wallpaper-HD-ForWallpapers.com_.jpg') center center repeat  ;
+background-size:auto 900px;
 /*background-color: #333;
 background: url('http://4.bp.blogspot.com/-0BjFu9ZZyXI/UQflOo4QoFI/AAAAAAAAR4Y/LkMYAidELsg/s1600/Abstract+Paintings+Wallpapers+07.jpg') center center repeat;
 background-size:auto 900px;
@@ -153,6 +153,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  color:#fff;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -166,8 +167,9 @@ body {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.6);
+  color: #000; /* IE8 proofing */
+  /*color: rgba(255,255,255,.9);*/
+   
 }
 
 
@@ -207,7 +209,8 @@ body {
 #embossed h1 {
 	text-shadow: 1px 2px 2px #fff, -1px -1px 1px #000;
 	color: black;
-	opacity: 0.4;
+	opacity: 0.6;
+        
 }
 
 .travel {
@@ -240,8 +243,70 @@ border:none 20px #000000;
 }
 
 .imgpad{
- padding-right:5px;
+ 
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+
+
+
+    -moz-box-shadow:inset 0px 1px 4px #f2fa19;
+    -webkit-box-shadow:inset 0px 1px 4px #f2fa19;
+    box-shadow:inset 0px 1px 4px #f2fa19;
+
+
+
+   
+
+    -moz-box-shadow: 0px 1px 17px #fcfcfc;
+    -webkit-box-shadow: 0px 1px 17px #fcfcfc;
+    box-shadow: 0px 1px 17px #fcfcfc;
+
+
+
+
+
+
+
+
+
+
 
 }
+
+.rdopad{
+ 
+    height:100%;
+    
+
+
+    background-color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+
+
+
+    -moz-box-shadow:inset -1px 0px 12px #171717;
+    -webkit-box-shadow:inset -1px 0px 12px #171717;
+    box-shadow:inset -1px 0px 12px #171717;
+
+
+
+
+}
+.footpad{
+
+    
+
+
+    background-color: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    margin-right:30%;
+    margin-left:30%;
+
+}
+
  
 

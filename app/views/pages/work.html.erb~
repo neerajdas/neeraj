@@ -10,12 +10,12 @@
             
 
 
-              <div id="embossed"><h1 class="masthead-brand" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1>
+              <div id="embossed"><h1 class="masthead-brand rdopad" data-toggle="tooltip" data-placement="bottom" title="Entrepreneur | Dreamer | Sylheti"><strong><u>|Neeraj Das|</u></strong></h1>
 
 </div>
 
 <div class="inner">
-              <ul class="nav masthead-nav">
+              <ul class="nav masthead-nav imgpad">
                  <li class=""><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
                 <li class="active"><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
@@ -24,11 +24,11 @@
           </div>
 
 <!--starts content here--->
-<div class="inner cover">
-            <h1 class="cover-heading">Some lines About My works.</h1>
+<div class="inner cover ">
+            <h1 class="cover-heading" >Some lines About My works.</h1>
           </div>
-<div class="row inset cover-container">
-  <div class="col-md-6">
+<div class="row inset cover-container imgpad" style="color:#fff;">
+  <div class="col-md-6 ">
   
   <div class="panel panel-default">
 
@@ -52,14 +52,15 @@
 <div class="panel panel-default">
 
 <div class="panel-body">
-<h4 class="text-left">Projects I was part of</h4>
+<p class="lead text-left">Projects I was part of</p>
+</div>
     <ul class="list-group text-left">
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| IGML</li>
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| ZYNDA</li>
 <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| DOW</li>
     </ul>
     <p class="text-right">And many more</p>
-  </div>
+  
 </div>
 </div>
 </div>
