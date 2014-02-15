@@ -16,9 +16,9 @@
 
 <div class="inner">
               <ul class="nav masthead-nav imgpad">
-                 <li class=""><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
-                <li class="active"><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
-                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
+                 <li data-toggle="tooltip" data-placement="bottom" title="About Me"><%= link_to "Profile",    root_path %></li>
+                <li class="active" data-toggle="tooltip" data-placement="bottom" title="My Works"><%= link_to "Works",    pages_work_path %></li>
+                <li data-toggle="tooltip" data-placement="bottom" title="Me & friends"><%= link_to "Blog",    pages_discus_path %></li>
               </ul>
             </div>
           </div>
@@ -27,15 +27,15 @@
 <div class="inner cover ">
             <h1 class="cover-heading imgpad" style="color:#fff;">Some lines About My works.</h1>
           </div>
-<div class="row inset cover-container imgpad" style="color:#fff;">
+<div class="row  cover-container" >
   <div class="col-md-6 ">
   
-  <div class="panel panel-default">
+  <div class="panel panel-default fotopad">
 
-<div class="panel-body">
+<div class="panel-body" style="color:#fff;">
     <p class="lead text-left">Brands I had worked with</p>
   </div>
-<ul class="list-group text-left">
+<ul class="list-group text-left"style="color:#fff;">
     <li class="list-group-item">NIIT,Nagpur</li>
     <li class="list-group-item">QuickHeal,Pune</li>
     <li class="list-group-item">Wipro,Bangalore</li>
@@ -48,13 +48,13 @@
 
 
  </div>
-  <div class="col-md-6">
-<div class="panel panel-default">
+  <div class="col-md-6 ">
+<div class="panel panel-default fotopad">
 
-<div class="panel-body">
+<div class="panel-body"style="color:#fff;">
 <p class="lead text-left">Projects I was part of</p>
 </div>
-    <ul class="list-group text-left">
+    <ul class="list-group text-left"style="color:#fff;">
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| IGML</li>
     <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| ZYNDA</li>
 <li class="list-group-item"><a href="#"><%= image_tag("1.png",:size => "45x45",:alt => "Igml")%></a>| DOW</li>
