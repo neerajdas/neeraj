@@ -25,7 +25,7 @@
 
 <!--starts content here--->
 <div class="inner cover ">
-            <h1 class="cover-heading" >Some lines About My works.</h1>
+            <h1 class="cover-heading imgpad" style="color:#fff;">Some lines About My works.</h1>
           </div>
 <div class="row inset cover-container imgpad" style="color:#fff;">
   <div class="col-md-6 ">

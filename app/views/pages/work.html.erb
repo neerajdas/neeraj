@@ -16,9 +16,9 @@
 
 <div class="inner">
               <ul class="nav masthead-nav imgpad">
-                 <li class=""><a href="http://neerajdas.herokuapp.com" data-toggle="tooltip" data-placement="bottom" title="About Me">Profile</a></li>
-                <li class="active"><a href="/pages/work" data-toggle="tooltip" data-placement="bottom" title="My Works">Work</a></li>
-                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Me & friends">Blog</a></li>
+                 <li data-toggle="tooltip" data-placement="bottom" title="About Me"><%= link_to "Profile",    root_path %></li>
+                <li class="active" data-toggle="tooltip" data-placement="bottom" title="My Works"><%= link_to "Works",    pages_work_path %></li>
+                <li data-toggle="tooltip" data-placement="bottom" title="Me & friends"><%= link_to "Blog",    pages_discus_path %></li>
               </ul>
             </div>
           </div>
